@@ -6,9 +6,9 @@ https://www.inflearn.com/course/%EB%89%B4%EB%B9%84%EB%A5%BC-%EC%9C%84%ED%95%9C-%
 끝까지 다 보고 100% 인증하기
 
 ### 기능 요구 사항
-document.querySelector()
-addEventListener()
-classList.add()
+document.querySelector(), 
+addEventListener(),
+classList.add(),
 classList.remove()
 를 사용하여 모달 기능이 있는 사이트 제작하기
 디자인이나 사이트 유형은 자유
