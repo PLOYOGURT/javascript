@@ -22,6 +22,12 @@
 ### 기능 요구 사항
 - 계산이 되도록 해주세요
 
+### 필요 문법
+document.querySelector
+addEvenListener
+함수 사용
+if 문 else if 문
+target.textCotent
 
 ## 과제 2
 > 로또 추첨기 <br>
@@ -30,6 +36,15 @@
 - 숫자는 1~45로 합니다.
 - 숫자를 무작위로 섞은 후 6개의 번호가 나오도록 합니다.
 - 6개의 번호는 한번에 나오는 것이 아니라 하나씩 차례대로 출력되도록 합니다.
+
+### 필요 문법
+for문 fill과 map
+배열
+Math.floor(Math.random() * 45); 숫자 44까지의 랜덤 숫자
+splice
+document.createElement
+addEvenListener
+들을 사용해주세요
 
 ## 제출 방법
 1. 이 레포지토리를 포크합니다
