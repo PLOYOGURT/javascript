@@ -33,7 +33,12 @@
 - [ ] 숫자를 무작위로 섞은 후 6개의 번호가 나오도록 합니다.
 - [ ] 6개의 번호는 한번에 나오는 것이 아니라 하나씩 차례대로 출력되도록 합니다.
 - [ ] ```for문```, ```fill```, ```map```, ```배열```, ```addEventListener```을 사용합니다.
+---
+### Javascript 자료들
+Javascript에 관련된 자료들이니 참고하시면 좋을 것 같아요.
 
+- [자바스크립트 강의](https://www.inflearn.com/course/%EB%A0%88%EC%B8%A0%EA%B8%B0%EB%A6%BF-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
+- [자바스크립트 공부 관련 사이트들](https://thinkforthink.tistory.com/351)
 
 ## 제출 방법
 1. 이 레포지토리를 포크합니다
