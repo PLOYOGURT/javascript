@@ -15,7 +15,7 @@
 - CSS
 - Javascript
 
-### [강의들으러가기]([https://www.inflearn.com/course/%EB%89%B4%EB%B9%84%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8](https://inf.run/7BJ1V)) 
+### [강의들으러가기](https://inf.run/7BJ1V)
 
 ## 과제 1 
 > 계산기 <br>
