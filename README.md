@@ -38,7 +38,7 @@
 ### Javascript 자료들
 Javascript에 관련된 자료들이니 참고하시면 좋을 것 같아요.
 
-- [자바스크립트 강의](https://www.inflearn.com/course/%EB%A0%88%EC%B8%A0%EA%B8%B0%EB%A6%BF-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)
+- [자바스크립트 강의](https://www.inflearn.com/course/%EB%A0%88%EC%B8%A0%EA%B8%B0%EB%A6%BF-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8) <- 인프런 [리뉴얼] 코딩자율학습 제로초의 자바스크립트 입문
 - [자바스크립트 공부 관련 사이트들](https://thinkforthink.tistory.com/351)
 
 ## 제출 방법
