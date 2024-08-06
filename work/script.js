@@ -83,3 +83,34 @@ for (let i = 0; i < aboutCards.length; i++) {
 
     $aboutDiv.appendChild($div);//이하동문
 }
+
+//커리큘럼 마우스오버 애니메이션
+
+$currLis = document.querySelectorAll('.curriculum__list > li');//
+
+$currProgBar = document.querySelector('.curriculum__progress .bar');
+
+for (let i = 0; i < $currLis.length; i++) {
+    const $li = $currLis[i];
+
+    $li.addEventListener('mouseenter', () => {//커서가 i번째 li 위에 있을떄
+      $currProgBar.style.width = (200 * i) + 'px'; // currProgBar의 width를 i*200만큼 늘린다
+    });
+    $li.addEventListener('mouseleave', () => {//커서가 i번째 li 위에 없을때
+        $currProgBar.style.width = 0; // currProgBar의 width를 없앤다.
+    });
+}
+
+//문의하기 탭 기능
+
+const $contactTabs = document.querySelectorAll('input[name=contact]');
+const $contactSlideCon = document.querySelector('.contact__slide-con');
+
+for (let i = 0; i < $contactTabs.length; i++) {
+    const $tab = $contactTabs[i];
+    const marginLeft = [0, '-100vw'][i];
+
+    $tab.addEventListener('click', () => { //i번째 input에 클릭 했을때
+    $contactSlideCon.style.marginLeft = marginLeft; //contact__slide-con 클래스에 왼쪽 마진을 배열 marginLeft i번째 만큼 설정
+    });
+}
