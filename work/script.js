@@ -114,3 +114,22 @@ for (let i = 0; i < $contactTabs.length; i++) {
     $contactSlideCon.style.marginLeft = marginLeft; //contact__slide-con 클래스에 왼쪽 마진을 배열 marginLeft i번째 만큼 설정
     });
 }
+
+//모바일 네비게이션 버튼
+
+const $menuBtn = document.querySelector('.header__menu-btn');
+const $headerNav = document.querySelector('.header__nav');
+
+$menuBtn.addEventListener('click', (e) => {//메뉴 버튼이 클릭 되면
+    $menuBtn.classList.toggle('on');//on클래스 추가
+    $headerNav.classList.toggle('active');//active 클래스 추가
+
+    e.stopPropagation();//상위요소로 해당 이벤트를 전달하지 않고 자신만 이벤트를 감지하도록 사용하는 것
+});
+
+document
+.querySelector('body') 
+.addEventListener('click', () => { //body가 클릭 되었을때 
+    $menuBtn.classList.remove('on');
+    $headerNav.classList.remove('active');//on, active클래스 삭제
+});
