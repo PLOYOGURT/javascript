@@ -1,0 +1,15 @@
+.nums{
+    display: flex;
+    gap: 30px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
