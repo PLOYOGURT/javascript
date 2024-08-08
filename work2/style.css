@@ -15,12 +15,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .show{
-    margin: 2em 0;
-    width: 30em;  
+    width: 30em;
     display: flex;
     border: 1px solid black;
 }
-
+p, .input{
+    margin-top: 1.5em;
+}
 /* 추천된 숫자 */
 .num{
     width: 4em;
@@ -29,6 +30,5 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 button{
-    margin-right: 1em ;
-    padding: 0.5em;
+    margin-left: 0.5em ;
 }
