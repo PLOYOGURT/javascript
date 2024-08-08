@@ -1,0 +1,34 @@
+/* 기본세팅 */
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* main */
+.main{
+    margin:8em auto;
+    width: 60vw;
+    height: inherit;
+}
+
+.show{
+    margin: 2em 0;
+    width: 30em;  
+    display: flex;
+    border: 1px solid black;
+}
+
+/* 추천된 숫자 */
+.num{
+    width: 4em;
+    height: 6em;
+    margin: 0.5em;
+    text-align: center;
+}
+button{
+    margin-right: 1em ;
+    padding: 0.5em;
+}
