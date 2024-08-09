@@ -36,6 +36,26 @@ $form.addEventListener('submit', (event) => {
     const bonus = randomNum[6];
     console.log(winNum,bonus);
 
+    // 숫자 보이기
+    const $showDiv = document.querySelectorAll('.num');
+
+    const displayNumbers = (i) => {
+        if (i < winNum.length) {
+            const rottoNum = winNum[i];
+            $showDiv[i].textContent = rottoNum;
+    
+            setTimeout(function() {
+                displayNumbers(i + 1);
+            }, 1000);
+        }
+    }
+    displayNumbers(0);
+
+    const $bonusDiv = document.querySelector('.numBonus');
+    setTimeout(function() {
+        $bonusDiv.textContent = bonus;
+    },6000);
+
 });
 
 
