@@ -11,6 +11,7 @@ const reset = document.querySelector(".reset");
 // const num6 = document.getElementById('num6');
 
 // const numarr = [num1, num2, num3, num4, num5, num6];
+
 const numarr = Array.from({ length: 6 }, (_, i) => document.getElementById(`num${i + 1}`));
 
 
@@ -62,7 +63,7 @@ submit.addEventListener('click', function(){
 //foreach 함수 사용
     randNums.forEach((num, i) => {
         setTimeout(() => {
-            updateCounter(numarr[i], num);
+            updateCounter(numarr[i], num, 500);
         }, 500 * i);
     });
 });
