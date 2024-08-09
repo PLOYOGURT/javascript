@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제2,로또 추첨기</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <h1>로또 추첨기</h1>
+        <p>당첨번호 :</p>
+        <div class="show">
+            <!-- 숫자보여줌 -->
+            <div class="num" name="1"></div>
+            <div class="num" name="2"></div>
+            <div class="num" name="3"></div>
+            <div class="num" name="4"></div>
+            <div class="num" name="5"></div>
+            <div class="num" name="6"></div>
+        </div>
+        <div class="bonus">
+            <p>보너스번호 :</p>
+            <div class="numBonus"></div>
+        </div>
+        <form class="input">
+            <input name="input" id="numInput" placeholder="숫자 6개를 쉼표로 구분해 입력해주세요." />
+            <button>추첨</button>
+        </form>
+    </div>
+
+</body>
