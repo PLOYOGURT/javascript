@@ -1,0 +1,27 @@
+.nums{
+    display: flex;
+    gap: 30px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.num{
+    font-size: 100px;
+    width: 150px;
+    text-align: center;
+}
+.result button{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
