@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5, h6 {
 p, .input{
     margin-top: 1.5em;
 }
+#numInput{
+    width: 32vw;
+}
 /* 추천된 숫자 */
 .num{
     width: 4em;

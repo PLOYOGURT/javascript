@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>과제2,로또 추첨기</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./index.js"></script>
+    <script defer src="index.js"></script>
 </head>
 
 <body>
@@ -26,11 +26,10 @@
             <p>보너스번호 :</p>
             <div class="numBonus"></div>
         </div>
-        <div class="input">
-            <input type="text" name="로또" id="numInput">
-            <button type="submit">추첨</button>
-        </div>
+        <form class="input">
+            <input name="input" id="numInput" placeholder="숫자 6개를 쉼표로 구분해 입력해주세요." />
+            <button>추첨</button>
+        </form>
     </div>
-</body>
 
-</html>
+</body>
